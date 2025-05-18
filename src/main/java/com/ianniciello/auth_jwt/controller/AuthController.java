@@ -2,7 +2,6 @@ package com.ianniciello.auth_jwt.controller;
 
 import com.ianniciello.auth_jwt.dto.AuthRequest;
 import com.ianniciello.auth_jwt.dto.JwtResponse;
-import com.ianniciello.auth_jwt.model.User;
 import com.ianniciello.auth_jwt.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
