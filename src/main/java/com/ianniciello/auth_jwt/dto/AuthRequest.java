@@ -23,6 +23,14 @@ public class AuthRequest {
 
     public AuthRequest() {}
 
+    public AuthRequest(Long id, String username, Role role) {
+
+        this.id = id;
+        this.username = username;
+        this.role = role;
+
+    }
+
     public AuthRequest(String username, String password, Role role) {
 
         this.username = username;
